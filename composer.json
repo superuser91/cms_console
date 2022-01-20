@@ -1,0 +1,29 @@
+{
+    "name": "vgplay/cms-console",
+    "description": "Artisan console",
+    "type": "package",
+    "require": {
+        "php": "^7",
+        "laravel/framework": "^6|^7|^8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vgplay\\CmsConsole\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dung199551",
+            "email": "dung199551@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vgplay\\CmsConsole\\CmsConsoleServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
