@@ -8,7 +8,8 @@ class CmsConsoleServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__ . '/configs/cms_console.php', 'cms_console');
-        $this->loadViewsFrom(__DIR__ . '/resources/views', 'cms_console');
+        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'vgplay');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'vgplay');
+        $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
     }
 }
