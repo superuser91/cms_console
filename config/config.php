@@ -5,6 +5,7 @@ return [
         'prefix' => '/admin/console',
         'middleware' => ['auth:admin'],
         'pjax_container_id' => 'kt_content',
+        'layout' => 'layouts.app',
         'white_list' => [
             'up',
             'down',
