@@ -4,6 +4,7 @@ return [
     'console' => [
         'prefix' => '/admin/console',
         'middleware' => ['auth:admin'],
+        'pjax_container_id' => 'kt_content',
         'white_list' => [
             'up',
             'down',

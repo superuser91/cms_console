@@ -68,7 +68,7 @@
 
 </style>
 
-<div class="container-fluid">
+<div class="container-fluid" id="{{ config('vgplay.console.pjax_container_id') }}">
     <div class="row justify-content-center">
         @if (session('status'))
             <div class="alert alert-custom alert-success alert-shadow gutter-b w-100 mx-4" role="alert">
